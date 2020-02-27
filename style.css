@@ -93,13 +93,17 @@ p span {
 }
 
 .article {
-  top: 50px;
+  margin-bottom: 40px;
 }
 
 @media (max-width: 600px) {
   body {
     padding: 15px;
     font-size: 18px;
+  }
+
+  .eng-article {
+    font-size: 22px;
   }
 }
 
