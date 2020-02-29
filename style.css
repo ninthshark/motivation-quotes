@@ -97,6 +97,10 @@ p span {
   margin-bottom: 40px;
 }
 
+img {
+  width: 100%;
+}
+
 @media (max-width: 600px) {
   body {
     padding: 15px;
