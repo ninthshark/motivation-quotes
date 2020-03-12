@@ -7,6 +7,7 @@
 body {
   background-color: darkgray;
   padding: 15px;
+  font-size: 20px;
 }
 h3,
 h4,
@@ -97,14 +98,23 @@ p span {
   margin-bottom: 40px;
 }
 
+.eng-article {
+  font-size: 20px;
+}
+
 img {
-  width: 100%;
+  width: scale(0.3);
+  margin: 20px 0;
 }
 
 @media (max-width: 600px) {
   body {
     padding: 15px;
-    font-size: 18px;
+    font-size: 20px;
+  }
+
+  img {
+    width: 100%;
   }
 
   .eng-article {
