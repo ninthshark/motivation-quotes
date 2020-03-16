@@ -107,6 +107,12 @@ img {
   margin: 20px 0;
 }
 
+pre {
+  font-family: inherit;
+  font-size: inherit;
+  word-wrap: break-word;
+}
+
 @media (max-width: 600px) {
   body {
     padding: 15px;
