@@ -67,6 +67,10 @@ p span {
 .nav li a {
   color: #000000cc;
   text-decoration: none;
+  text-overflow: ellipsis;
+
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 .change .bar {
@@ -107,10 +111,8 @@ img {
   margin: 20px 0;
 }
 
-pre {
-  font-family: inherit;
-  font-size: inherit;
-  word-wrap: break-word;
+ul {
+  margin-left: 10px;
 }
 
 @media (max-width: 600px) {
@@ -125,6 +127,13 @@ pre {
 
   .eng-article {
     font-size: 22px;
+  }
+
+  .nav li a {
+    text-overflow: ellipsis;
+
+    white-space: nowrap;
+    overflow: hidden;
   }
 }
 
